@@ -1,7 +1,7 @@
-Công Nghệ Sử Dụng. 
-_matplotlib: Vẽ đồ thị trong python. 
-_skimage: Thư viện xử lý ảnh của python dựa trên numpy. 
-Giải thích cách hoạt động. 
+Công Nghệ Sử Dụng<br> 
+_matplotlib: Vẽ đồ thị trong python.<br>
+_skimage: Thư viện xử lý ảnh của python dựa trên numpy.<br>
+Giải thích cách hoạt động<br>
 ```python
 dt=skimage.io.imread("bird.png", as_gray=True)
 ```
