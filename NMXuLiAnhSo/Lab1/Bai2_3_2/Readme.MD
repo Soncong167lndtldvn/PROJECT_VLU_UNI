@@ -23,5 +23,6 @@ cl để lấy 4 bit cao nhất 11110000
 skimage.io.imsave('birdf0.png', cl)
 tmp = skimage.io.imread('birdf0.png')
 plt.imshow(tmp, cmap='gray')
-plt.show()```
+plt.show()
+```
 Lần lượt lưu file mới birdf0.png bằng imsave dưới dạng 4 bit cao rồi chuyển sang mảng numpy 2 chiều bằng imread và dùng imshow để vẽ đồ thị các điểm ảnh và show() để hiện ra màn hình.
